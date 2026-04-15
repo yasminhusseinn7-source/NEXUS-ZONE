@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NEXUS ZONE | صالة الألعاب الإلكترونية</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<nav>
+  <div class="logo">NEXUS<span>ZONE</span></div>
+  <ul>
+    <li><a href="#about">عن الصالة</a></li>
+    <li><a href="#features">المميزات</a></li>
+    <li><a href="#pricing">الأسعار</a></li>
+    <li><a href="#booking">احجز الآن</a></li>
+  </ul>
+  <button class="nav-btn" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">احجز مقعدك</button>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-grid"></div>
+  <div class="hero-glow glow1"></div>
+  <div class="hero-glow glow2"></div>
+  <div class="hero-glow glow3"></div>
+  <div class="hero-content">
+    <div class="hero-badge">🎮 الوجهة الأولى للجيمرز</div>
+    <h1>
+      <span class="line1">NEXUS ZONE</span>
+      <span class="line2">صالة الألعاب</span>
+    </h1>
+    <p class="hero-sub">استمتع بتجربة لعب لا مثيل لها — أحدث أجهزة PlayStation 5 وبيسيات مخصصة للجيمرز، بيئة مريحة وأجواء تنافسية حقيقية.</p>
+    <div class="hero-cta">
+      <a href="#booking" class="btn-primary">🎯 احجز الآن</a>
+      <a href="#features" class="btn-secondary">اكتشف المزيد</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">20+</div><div class="stat-label">جهاز جيمينج</div></div>
+      <div class="stat"><div class="stat-num">500+</div><div class="stat-label">لاعب أسبوعياً</div></div>
+      <div class="stat"><div class="stat-num">4K</div><div class="stat-label">شاشات عالية الدقة</div></div>
+      <div class="stat"><div class="stat-num">24/7</div><div class="stat-label">وقت الفرح</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-text reveal">
+      <div class="section-tag">// من نحن</div>
+      <h2 class="section-title">تجربة جيمينج <span>على مستوى آخر</span></h2>
+      <p class="section-desc">NEXUS ZONE ليست مجرد صالة ألعاب — هي وجهة الجيمرز الحقيقيين. صممنا كل تفصيلة لتمنحك أفضل تجربة لعب ممكنة.</p>
+      <p class="section-desc" style="margin-top:16px;">سواء كنت تحب الألعاب الفردية، أو تبحث عن تحدي في ألعاب الجماعات، أو تريد بطولة مع أصدقائك — المكان مُعدّ لك.</p>
+    </div>
+    <div class="about-visual reveal reveal-delay-2">
+      <div class="about-cards">
+        <div class="about-card">
+          <div class="about-icon">🎮</div>
+          <h3>PlayStation 5 & PC Gaming</h3>
+          <p>أحدث أجهزة PS5 مع مكتبة ألعاب ضخمة، وبيسيات مجهزة بكروت شاشة RTX لأعلى أداء.</p>
+          <div class="corner-accent"></div>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🏆</div>
+          <h3>بطولات وتحديات</h3>
+          <p>بطولات أسبوعية وشهرية مع جوائز قيّمة — سجّل اسمك في قائمة الأبطال.</p>
+          <div class="corner-accent"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="reveal">
+    <div class="section-tag">// مميزاتنا</div>
+    <h2 class="section-title">كل شيء <span>مُهيَّأ لك</span></h2>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card reveal reveal-delay-1">
+      <div class="feature-num">01</div>
+      <div class="feature-icon">🖥️</div>
+      <h3>أجهزة متطورة</h3>
+      <p>PS5 وبيسيات RTX 4080 مع شاشات 4K بمعدل 165Hz — لا تسوية في الأداء.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-2">
+      <div class="feature-num">02</div>
+      <div class="feature-icon">🛋️</div>
+      <h3>كراسي جيمينج مريحة</h3>
+      <p>كراسي DXRacer احترافية لضمان راحتك حتى في أطول جلسات اللعب.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-3">
+      <div class="feature-num">03</div>
+      <div class="feature-icon">🎧</div>
+      <h3>صوت غامر</h3>
+      <p>سماعات وأنظمة صوت عالية الجودة تضعك في قلب الحدث.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-4">
+      <div class="feature-num">04</div>
+      <div class="feature-icon">☕</div>
+      <h3>مشروبات وسناكات</h3>
+      <p>مشروبات طاقة، عصائر، قهوة، وسناكات متنوعة طوال وقت اللعب.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-1">
+      <div class="feature-num">05</div>
+      <div class="feature-icon">⚡</div>
+      <h3>إنترنت فائق السرعة</h3>
+      <p>اتصال Fiber 1Gbps مخصص — لا لاق، لا قطع، فقط ألعاب سلسة.</p>
+    </div>
+    <div class="feature-card reveal reveal-delay-2">
+      <div class="feature-num">06</div>
+      <div class="feature-icon">🔒</div>
+      <h3>أجواء آمنة ومرتاحة</h3>
+      <p>مكان نظيف، مكيّف، وهادئ — مثالي للتركيز أو الاستمتاع مع الأصدقاء.</p>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="pricing">
+  <div class="reveal" style="text-align:center;">
+    <div class="section-tag" style="justify-content:center;display:flex;">// الأسعار</div>
+    <h2 class="section-title" style="margin:0 auto;">متعة <span>بأسعار تناسبك</span></h2>
+    <p class="section-desc" style="margin:16px auto 0;text-align:center;">اختر الباقة المناسبة — بدون خفايا، بدون رسوم إضافية.</p>
+  </div>
+  <div class="pricing-grid">
+    <div class="price-card reveal reveal-delay-1">
+      <div class="price-label">ساعة واحدة</div>
+      <div class="price-name">تجربة سريعة</div>
+      <div class="price-amount"><div class="price-num">15</div><div class="price-unit">ريال / ساعة</div></div>
+      <hr class="price-divider" />
+      <ul class="price-features">
+        <li>PS5 أو PC (اختيارك)</li>
+        <li>شاشة Full HD</li>
+        <li>مشروب مجاني</li>
+        <li>سماعات احترافية</li>
+      </ul>
+      <a href="#booking" class="price-btn outline">احجز الآن</a>
+    </div>
+    <div class="price-card featured reveal reveal-delay-2">
+      <div class="featured-badge">⚡ الأكثر طلباً</div>
+      <div class="price-label">3 ساعات</div>
+      <div class="price-name">جلسة جيمر</div>
+      <div class="price-amount"><div class="price-num">35</div><div class="price-unit">ريال / 3 ساعات</div></div>
+      <hr class="price-divider" />
+      <ul class="price-features">
+        <li>PS5 أو PC (اختيارك)</li>
+        <li>شاشة 4K 165Hz</li>
+        <li>مشروبان مجانيان</li>
+        <li>سناك مجاني</li>
+        <li>كرسي DXRacer</li>
+      </ul>
+      <a href="#booking" class="price-btn filled">احجز الآن</a>
+    </div>
+    <div class="price-card reveal reveal-delay-3">
+      <div class="price-label">يوم كامل</div>
+      <div class="price-name">باقة المحترف</div>
+      <div class="price-amount"><div class="price-num">80</div><div class="price-unit">ريال / يوم</div></div>
+      <hr class="price-divider" />
+      <ul class="price-features">
+        <li>دخول غير محدود</li>
+        <li>أفضل جهاز متاح</li>
+        <li>مشروبات وسناكات غير محدودة</li>
+        <li>أولوية في الحجز</li>
+        <li>لوكر شخصي</li>
+      </ul>
+      <a href=" #booking" class="price-btn outline">احجز الآن</a>
+    </div>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <div class="booking-inner">
+    <div>
+      <div class="section-tag reveal">// تواصل معنا</div>
+      <h2 class="section-title reveal">احجز مقعدك <span>الآن</span></h2>
+      <p class="section-desc reveal">أرسل طلب الحجز وسنتواصل معك في أقرب وقت لتأكيد موعدك.</p>
+      <div class="contact-info" style="margin-top:40px;">
+        <div class="contact-item reveal reveal-delay-1">
+          <div class="contact-icon-wrap">📍</div>
+          <div class="contact-text"><h4>الموقع</h4><p>الرياض، حي النزهة<br/>شارع الأمير سلطان، مجمع الجيمرز</p></div>
+        </div>
+        <div class="contact-item reveal reveal-delay-2">
+          <div class="contact-icon-wrap">📱</div>
+          <div class="contact-text"><h4>واتساب وهاتف</h4><p>+966 50 000 0000<br/>متاحون 10 صباحاً – 2 فجراً</p></div>
+        </div>
+        <div class="contact-item reveal reveal-delay-3">
+          <div class="contact-icon-wrap">🕹️</div>
+          <div class="contact-text"><h4>أوقات العمل</h4><p>يوميًا: 10:00 ص – 2:00 ص<br/>الإجازات: 10:00 ص – 4:00 ص</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="booking-form reveal">
+      <div class="form-group">
+        <label>الاسم الكامل</label>
+        <input type="text" placeholder="اكتب اسمك هنا..." />
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>رقم الجوال</label>
+          <input type="tel" placeholder="05X XXX XXXX" />
+        </div>
+        <div class="form-group">
+          <label>نوع الجهاز</label>
+          <select>
+            <option value="">اختر...</option>
+            <option>PlayStation 5</option>
+            <option>Gaming PC</option>
+            <option>أي جهاز متاح</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>التاريخ</label>
+          <input type="date" />
+        </div>
+        <div class="form-group">
+          <label>الوقت</label>
+          <input type="time" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>الباقة</label>
+        <select>
+          <option value="">اختر الباقة...</option>
+          <option>تجربة سريعة - 15 ريال/ساعة</option>
+          <option>جلسة جيمر - 35 ريال/3 ساعات</option>
+          <option>باقة المحترف - 80 ريال/يوم</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>ملاحظات إضافية</label>
+        <textarea placeholder="أي طلبات خاصة؟ مجموعة؟ بطولة؟..."></textarea>
+      </div>
+      <button class="btn-primary" style="width:100%;text-align:center;border:none;font-size:1rem;" onclick="handleBooking()">🎮 أرسل طلب الحجز</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="logo">NEXUS<span style="color:var(--neon2)">ZONE</span></div>
+  <p>وجهتك الأولى لأفضل تجربة ألعاب إلكترونية</p>
+  <div class="footer-links">
+    <a href="#home">الرئيسية</a>
+    <a href="#about">عن الصالة</a>
+    <a href="#features">المميزات</a>
+    <a href="#pricing">الأسعار</a>
+    <a href="#booking">احجز الآن</a>
+  </div>
+  <p class="footer-copy">© 2025 NEXUS ZONE. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
